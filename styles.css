@@ -16,6 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  
 }
 .logo {
   display: flex;
@@ -26,10 +27,8 @@ header {
   align-items: center;
 }
 .logo span {
-  
   display: grid;
-  padding: 10px;
-  padding-top: 0px;
+  width: 40px;
   margin: 0px;
   background-color: #edf6fc;
   font-size: 30px;
@@ -42,6 +41,7 @@ header input {
   height: 20px;
   width: 300px;
   padding: 12px 15px;
+  border-radius: 10px;
 }
 header button {
   height: 40px;
@@ -49,6 +49,7 @@ header button {
   background-color: #176bce;
   color: #ffffff;
   border-radius: 999px;
+  border-color: #176bce;
 }
 
 header nav {
@@ -64,28 +65,25 @@ header nav a:hover {
   color: #176bce;
 }
 main {
+
   padding: 64px;
   background-color: #ffffff;
-  margin: 20px;
+  margin: 80px;
   border-radius: 40px;
-  box-shadow:5px 10px 15px #5f6f85;
+  box-shadow: 0px 8px 24px 0px #98a5b6;
 }
-.sec-1{
-    position: relative;
+.sec-1 {
+  position: relative;
 }
-.sec-1 h5{
-    background-color: #176bce;
-    color: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    position: absolute;
+.sec-1 h5 {
+  background-color: #176bce;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  position: absolute;
 
-    right: 10px;
-    top: -100px;
-   
-
-
-
+  right: 10px;
+  top: -100px;
 }
 .sec-1-top {
   justify-content: space-between;
@@ -163,7 +161,7 @@ main {
 }
 .sec-2-div div:hover {
   transform: translateY(-4px);
-  box-shadow:5px 10px 15px #5f6f85;
+  box-shadow: 0px 8px 24px 0px #98a5b6;
 }
 
 .sec-2-div div p {
@@ -175,14 +173,13 @@ main {
 .sec-3 {
   margin: 20px;
   margin-top: 50px;
-
 }
 
-.sec-3 p{
-    font-size: 14px;
+.sec-3 p {
+  font-size: 14px;
   color: #176bce;
 }
-.sec-3 h1{
+.sec-3 h1 {
   font-size: 30px;
 }
 .sec-3-div {
@@ -190,36 +187,36 @@ main {
   display: flex;
   background-color: #ffffff;
   border-radius: 20px;
-  box-shadow:5px 10px 15px #5f6f85;
+  box-shadow: 0px 8px 24px 0px #98a5b6;
 }
 
-.sec-3-div div{
-    margin-left: 10px;
+.sec-3-div div {
+  margin-left: 10px;
   width: 100%;
   height: 300;
   padding-left: 20px;
   border-radius: 20px;
   text-align: center;
   padding: 18px;
- 
+  
 }
 
-.sec-3-div div:hover{
-    margin: 16px;
-    background-color: #176bce;
+.sec-3-div div:hover {
+  margin: 16px;
+  background-color: #176bce;
+  color: #ffffff;
+  transform: translateY(-5px);
 }
-.sec-4{
-    margin: 20px;
+.sec-4 {
+  margin: 20px;
   margin-top: 50px;
-
-
 }
 
-.sec-4 p{
-    font-size: 14px;
+.sec-4 p {
+  font-size: 14px;
   color: #176bce;
 }
-.sec-4 h1{
+.sec-4 h1 {
   font-size: 30px;
 }
 .sec-4-div {
@@ -227,8 +224,8 @@ main {
   display: flex;
   width: 100%;
 }
-.sec-4-div div{
-    margin-left: 10px;
+.sec-4-div div {
+  margin-left: 10px;
   width: 100%;
   height: 300;
   padding-left: 20px;
@@ -236,39 +233,41 @@ main {
   text-align: center;
   padding: 18px;
   background-color: #ffffff;
-  transition: transform .2s, box-shadow .2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
-.sec-4-div div:hover{
-   box-shadow:5px 10px 15px #5f6f85;
-   transform: translateY(-4px);
+.sec-4-div div:hover {
+  box-shadow: 0px 8px 24px 0px #98a5b6;
+  transform: translateY(-4px);
 }
 
-
-.sec-4-div div small{
-    font-size: 10px;
-    color: #5f6f85;
+.sec-4-div div small {
+  font-size: 10px;
+  color: #5f6f85;
 }
-footer{
-    background-color: #12233f;
+footer {
+  margin-top: 40px;
+  background-color: #12233f;
 }
-.sec-5{
-    
-    align-items: center;
+.sec-5 {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  
-
 }
-footer h5{
-    color: #ffffff;
+footer h5 {
+  color: #ffffff;
 }
-footer p{
-    color:#afb8bd;
-    font-size: 10px;
+footer p {
+  color: #afb8bd;
+  font-size: 10px;
 }
-
-
-
-
-
+.card{
+     background-color: #ffffff;
+  margin-left: 10px;
+  width: 100%;
+  height: 300;
+  padding-left: 20px;
+  border-radius: 20px;
+}
