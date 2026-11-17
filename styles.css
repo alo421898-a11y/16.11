@@ -10,6 +10,8 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: #edf6fc;
+  margin: 0px;
+  padding: 0px;
 }
 header {
   display: flex;
@@ -42,6 +44,7 @@ header input {
   width: 300px;
   padding: 12px 15px;
   border-radius: 10px;
+  border: 1px solid var(--sky);
 }
 header button {
   height: 40px;
@@ -61,20 +64,19 @@ header nav a {
   text-decoration: none;
   color: #5f6f85;
 }
-header nav a:hover {
-  color: #176bce;
+nav a.active{
+    color:var(--blue)
 }
-main {
+.sec-1 {
 
   padding: 64px;
   background-color: #ffffff;
   margin: 80px;
   border-radius: 40px;
   box-shadow: 0px 8px 24px 0px #98a5b6;
-}
-.sec-1 {
   position: relative;
 }
+
 .sec-1 h5 {
   background-color: #176bce;
   color: #ffffff;
@@ -83,7 +85,7 @@ main {
   position: absolute;
 
   right: 10px;
-  top: -100px;
+  top: -40px;
 }
 .sec-1-top {
   justify-content: space-between;
@@ -150,6 +152,7 @@ main {
 .sec-2-div {
   align-items: center;
   display: flex;
+  transition: 0.2s;
 }
 .sec-2-div div {
   background-color: #ffffff;
@@ -188,6 +191,7 @@ main {
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 8px 24px 0px #98a5b6;
+  padding: 20px;
 }
 
 .sec-3-div div {
@@ -202,10 +206,10 @@ main {
 }
 
 .sec-3-div div:hover {
-  margin: 16px;
+  
   background-color: #176bce;
   color: #ffffff;
-  transform: translateY(-5px);
+  
 }
 .sec-4 {
   margin: 20px;
