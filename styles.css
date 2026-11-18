@@ -96,6 +96,7 @@ nav a.active{
   justify-content: space-between;
   align-items: center;
   display: flex;
+  margin: 0px;
 }
 
 .sec-1-top p {
@@ -124,6 +125,7 @@ nav a.active{
   justify-content: space-between;
   align-items: center;
   display: flex;
+  margin: 0px;
 }
 .sec-1-buttom p {
   font-size: 70px;
@@ -204,13 +206,14 @@ nav a.active{
 }
 
 .sec-3-div div {
-  margin-left: 10px;
+ 
   width: 100%;
   height: 300;
   padding-left: 20px;
   border-radius: 20px;
   text-align: center;
   padding: 18px;
+  box-sizing: border-box;
   
 }
 
@@ -250,8 +253,7 @@ nav a.active{
   transition:
     transform 0.2s,
     box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
+   
 }
 .sec-4-div div:hover {
   box-shadow: 0px 8px 24px 0px #98a5b6;
@@ -326,6 +328,7 @@ footer p {
     grid-template-columns:repeat(2, 1fr);
     gap: 20px; 
     
+    
    
 }
 
@@ -336,11 +339,20 @@ footer p {
     
     
 }
+.sec-4-div div{
+  display: flex;          
+  flex-direction: row;    
+  
+  justify-content: space-between;   
+  gap: 13px;             
+  order: 1;
+}
 .smh3{
      display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
+    
 }
 .sec-5{
    display: flex;
